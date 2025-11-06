@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Yass\Yass.csproj" />
+    <ProjectReference Include="..\..\src\Yass.SourceGeneration\Yass.SourceGeneration.csproj"
+                      OutputItemType="Analyzer"
+                      ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" />
+    <PackageReference Include="MessagePack" />
+    <PackageReference Include="protobuf-net" />
+  </ItemGroup>
+
+</Project>

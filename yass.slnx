@@ -1,11 +1,18 @@
 <Solution>
+
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/Yass.Benchmark/Yass.Benchmark.csproj" />
+  </Folder>
+
   <Folder Name="/src/">
     <Project Path="src/Yass.Console/Yass.Console.csproj" />
     <Project Path="src/Yass.SourceGeneration/Yass.SourceGeneration.csproj" />
     <Project Path="src/Yass/Yass.csproj" />
   </Folder>
+
   <Folder Name="/tests/">
     <Project Path="tests/Yass.SourceGeneration.Tests/Yass.SourceGeneration.Tests.csproj" />
     <Project Path="tests/Yass.Tests/Yass.Tests.csproj" />
   </Folder>
+
 </Solution>
